@@ -1,0 +1,59 @@
+# Byte-compiled / optimized files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+ENV/
+env.bak/
+.venv/
+
+# Model outputs (regenerated)
+models/*.pkl
+models/*.joblib
+
+# Data processing outputs
+data/processed/
+data/cache/
+data/temp/
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Logs / Temp
+*.log
+logs/
+tmp/
+temp/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Streamlit cache
+.streamlit/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
